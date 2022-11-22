@@ -7,6 +7,8 @@ The goal of this container image is to provide an example for running simple PHP
 ## How to Use?
 First of all, Clone all the container component  from https://github.com/nayakasbl/nodejs
 <pre><code>gh repo clone nayakasbl/nodejs</code></pre>
+Run command bellow to installs a package and any packages that it depends on.
+<pre><code>npm install</code></pre>
 Then run the docker images which you have pull it before. You can modify 2020 as a port of PHP container. 
 <pre><code>docker run -p 2020:80 nayakasbl/php-httpd </code></pre>
 After that, see the output or the result on http://localhost:2020. 

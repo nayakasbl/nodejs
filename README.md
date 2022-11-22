@@ -11,8 +11,8 @@ Run command bellow to installs a package and any packages that it depends on.
 <pre><code>npm install</code></pre>
 Build the images with command bellow and do not forget to add the directory of the repository that you have cloned before.
 <pre><code>docker build -t nodejs:latest (directory)</code></pre>
-Then run the docker images which you have pull it before. You can modify 2020 as a port of Node.js container. 
-<pre><code>docker run -p 2020:80 nayakasbl/nodejs </code></pre>
+Then run the docker images which you have cloned before. You can modify 2020 as a port of Node.js container. 
+<pre><code>docker run -p 2020:80 nodejs:latest </code></pre>
 After that, see the output or the result on http://localhost:2020. 
 
 Now you have the simple Node.js running container!! 
